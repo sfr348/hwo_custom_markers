@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name='hwo_custom_markers',
-    version='1.0',
+    version='1.01',
     author='Susan F. Redmond',
     description='Custom matplotlib markers for aperture concepts',
     long_description='',
@@ -11,7 +11,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'hwo_custom_markers': ['support_data/*.svg'],
+        'hwo_custom_markers': ['support_data/*.svg', 'support_data/demo_images/*.png'],
     },
     install_requires=[
         'numpy>=1.14.5',
