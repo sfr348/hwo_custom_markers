@@ -35,6 +35,9 @@ plt.plot(1, 1, ls='', marker=custom_markers[aperture_name], markerfacecolor='k',
 ```
 ![plot](./hwo_custom_markers/support_data/demo_images/available_markers.png)
 
+Note that if the markers are small and the aperture is segmented, it may look like a black square.  If plotting small markers, it is recommended to use the un-segmented versions.
+
+
 ## Making additional markers
 To make a new svg file that fits this format using python:
 1. Generate image of aperture and save:
