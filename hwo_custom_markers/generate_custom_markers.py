@@ -52,9 +52,8 @@ def get_custom_markers():
 
 
 def get_monolithic_marker():
-    # Generate marker for monolithic aperture
-    
-    
+    # Generate marker for monolithic circular aperture
+
     # Define the vertices and codes for the square, shifted so the center is at (0, 0)
     verts_square = [
         (-0.5, -0.5),  # left, bottom
