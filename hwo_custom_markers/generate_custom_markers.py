@@ -3,19 +3,21 @@ from svgpath2mpl import parse_path
 import matplotlib as mpl
 from matplotlib.path import Path
 from matplotlib.markers import MarkerStyle
-import matplotlib.pyplot as plt
 import os
 import glob
 import numpy as np
 
 
-def get_custom_markers():
+def get_historic_markers():
     '''A custom matplotlib marker generator.
 
     This function loads all svg files in a sub-folder named 'support_data' and creates a dictionary of custom matplotlib
-    markers.  To use a marker:
+    markers.  The markers generated are for the main pre-HWO aperture concepts such as LUVOIR and Habex.  The svg files
+    representing these apertures have been adjusted from their true design to facilitate visualization.
 
-    plt.plot(1,1,ls='', marker=custom_markers[aperture_name],  markerfacecolor='k', markeredgecolor='k', markersize=30)
+    To use a marker:
+
+    plt.plot(1, 1, ls='', marker=custom_markers[aperture_name],  markerfacecolor='k', markeredgecolor='k', markersize=30)
 
     Parameters
     ----------
@@ -93,3 +95,4 @@ def get_monolithic_marker():
     marker = MarkerStyle(marker=path_combined)
 
     return marker
+

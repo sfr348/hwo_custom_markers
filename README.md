@@ -22,7 +22,7 @@ python setup.py
 ```bash
 import hwo_custom_markers
 import matplotlib.pyplot as plt
-markers = hwo_custom_markers.generate_custom_markers.get_custom_markers()
+markers = hwo_custom_markers.generate_custom_markers.get_historic_markers()
 
 plt.figure()
 plt.plot(1,1,ls='', marker=custom_markers[aperture_name],  markerfacecolor='k', markeredgecolor='k', markersize=30)
