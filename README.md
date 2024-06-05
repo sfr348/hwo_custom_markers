@@ -20,7 +20,7 @@ python setup.py
 
 ## Demo
 ```bash
-import hwo_custom_markers
+import hwo_custom_markers.generate_custom_markers
 import matplotlib.pyplot as plt
 markers = hwo_custom_markers.generate_custom_markers.get_historic_markers()
 

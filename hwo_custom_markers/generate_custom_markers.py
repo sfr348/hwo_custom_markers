@@ -43,7 +43,6 @@ def get_historic_markers():
 
         custom_marker = parse_path(attributes[0]['d'])
         custom_marker.vertices -= custom_marker.vertices.mean(axis=0)
-        custom_marker = custom_marker.transformed(mpl.transforms.Affine2D().rotate_deg(180))
         custom_marker = custom_marker.transformed(mpl.transforms.Affine2D().scale(-1, 1))
 
         custom_markers[aperture_name] = custom_marker
