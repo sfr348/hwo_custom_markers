@@ -22,16 +22,19 @@ python setup.py
 ```bash
 import hwo_custom_markers.generate_custom_markers
 import matplotlib.pyplot as plt
-markers = hwo_custom_markers.generate_custom_markers.get_historic_markers()
+custom_markers = hwo_custom_markers.generate_custom_markers.get_historic_markers()
+aperture_name = 'luvoir_a_nogaps'
 
 plt.figure()
 plt.plot(1,1,ls='', marker=custom_markers[aperture_name],  markerfacecolor='k', markeredgecolor='k', markersize=30)
+plt.show()
 ```
 Note if you want the mirror faces to be different colours, plot a square behind it:
 ```bash
 plt.figure()
 plt.plot(1, 1, ls='', marker='s',  markerfacecolor='m', markeredgecolor='m', markersize=30)
 plt.plot(1, 1, ls='', marker=custom_markers[aperture_name], markerfacecolor='k', markeredgecolor='k', markersize=30)
+plt.show()
 ```
 ![plot](./hwo_custom_markers/support_data/demo_images/available_markers.png)
 
