@@ -33,6 +33,7 @@ plt.figure()
 plt.plot(1, 1, ls='', marker='s',  markerfacecolor='m', markeredgecolor='m', markersize=30)
 plt.plot(1, 1, ls='', marker=custom_markers[aperture_name], markerfacecolor='k', markeredgecolor='k', markersize=30)
 ```
+![plot](./hwo_custom_markers/support_data/demo_images/available_markers.png)
 
 ## Making additional markers
 To make a new svg file that fits this format using python:
