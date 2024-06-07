@@ -16,7 +16,6 @@ setup(
     install_requires=[
         'numpy>=1.14.5',
         'matplotlib>=2.2.0',
-        'jupyter',
         'svgpath2mpl',
         'svgpathtools'
     ],
