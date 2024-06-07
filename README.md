@@ -1,5 +1,5 @@
 # hwo_custom_markers
-Custom matplotlib markers for different telescope aperture concepts for searching for exo-Earths.  
+Custom matplotlib markers for different telescope aperture concepts for searching for exo-Earths. LUVOIR apertures are available via ```hcipy.make_luvoir_[a,b]_aperture()``` and CDS apertures are described in Belikov et al. 2023.  SVGs included in this packaged contain no dimensional data and dimensions have been adjusted to facilitate visualization. 
 
 ## Installation instructions
 ### Option 1:
