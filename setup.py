@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name='hwo_custom_markers',
-    version='1.02',
+    version='1.03',
     author='Susan F. Redmond',
     description='Custom matplotlib markers for aperture concepts',
     long_description='',
