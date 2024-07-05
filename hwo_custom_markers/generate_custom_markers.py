@@ -88,10 +88,7 @@ def get_monolithic_marker():
     verts_combined = verts_square + verts_circle
     codes_combined = codes_square + codes_circle
 
-    path_combined = Path(verts_combined, codes_combined)
-
-    # Create a custom marker
-    marker = MarkerStyle(marker=path_combined)
+    marker = Path(verts_combined, codes_combined)
 
     return marker
 
